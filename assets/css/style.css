@@ -879,9 +879,9 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
+  font-size: 26px;
   color: #fff;
-  font-weight: 600;
+  font-weight: 600;text-transform: uppercase;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
