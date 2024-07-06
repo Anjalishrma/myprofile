@@ -126,7 +126,7 @@ h6 {
 
   #header h2 {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 30px;text-align: center;
   }
 
   #header .social-links {
@@ -175,6 +175,18 @@ h6 {
 }
 
 @media (max-width: 768px) {
+  .portfolio-details-slider.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+    height: 90% !important;
+}
+.portfolio-details .container{padding-bottom: 0px !important;}
+.portfolio-details{padding-top: 0px !important;}
+.contact .info-box{padding: 15px;}
+  .glightbox-mobile .glightbox-container .gslide-description{bottom: 50px;
+    padding: 0px 0px 19px;}
+  .section-title p{font-size: 30px !important;}
+  .resume .resume-title {
+    font-size: 22px !important;}
+    .services .icon-box{padding: 40px 20px !important;}
   #header.header-top {
     height: 60px;
   }
